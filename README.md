@@ -1,4 +1,4 @@
-# Prova de Conceito: Testes Automatizados para Aplicativo Flutter
+# Prova de Conceito: Automação de Aplicativo em Robotframework com Appium
 
 Este repositório demonstra a automação de testes para um aplicativo Flutter utilizando **RobotFramework** e **Appium**. O objetivo dessa PoC é validar a integração dessas ferramentas para testes automatizados em um aplicativo mobile Flutter.
 
