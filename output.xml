@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.11.0 on win32)" generated="2025-02-17T09:33:59.014683" rpa="false" schemaversion="5">
+<suite id="s1" name="Checkout" source="C:\Users\ecruz\Desktop\Automações\poc-robot-app\feature\checkout.robot">
+<test id="s1-t1" name="Checkout do usuario" line="6">
+<kw name="Abrir aplicativo" owner="android_capabilities">
+<kw name="Open Application" owner="AppiumLibrary">
+<msg time="2025-02-17T09:34:01.507506" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4F0595B90&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session</msg>
+<msg time="2025-02-17T09:34:03.553315" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EF81AA50&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session</msg>
+<msg time="2025-02-17T09:34:05.586732" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EC9DC0D0&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session</msg>
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-02-17T09:34:07.642501" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-02-17T09:34:07.642501" elapsed="0.018365">No application is open</status>
+</kw>
+<msg time="2025-02-17T09:34:07.661857" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-02-17T09:34:07.662780" level="FAIL">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EC9B77D0&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))</msg>
+<arg>http://127.0.0.1:4723</arg>
+<arg>automationName=${ANDROID_AUTOMATION_NAME}</arg>
+<arg>platformName=${ANDROID_PLATFORM_NAME}</arg>
+<arg>platformVersion=${ANDROID_PLATFORM_VERSION}</arg>
+<arg>app=${ANDROID_APP}</arg>
+<arg>appPackage=br.com.telesena.app</arg>
+<arg>autoGrantPermissions=true</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2025-02-17T09:33:59.413927" elapsed="8.250931">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EC9B77D0&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))</status>
+</kw>
+<status status="FAIL" start="2025-02-17T09:33:59.412841" elapsed="8.252017">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EC9B77D0&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))</status>
+</kw>
+<kw name="Fechar modal" owner="checkout">
+<status status="NOT RUN" start="2025-02-17T09:34:07.665781" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar em comprar" owner="checkout">
+<status status="NOT RUN" start="2025-02-17T09:34:07.665781" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-17T09:33:59.412841" elapsed="8.252940">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EC9B77D0&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))</status>
+</test>
+<status status="FAIL" start="2025-02-17T09:33:59.016200" elapsed="8.652727"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Checkout" id="s1" pass="0" fail="1" skip="0">Checkout</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-17T09:34:01.507506" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4F0595B90&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session</msg>
+<msg time="2025-02-17T09:34:03.553315" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EF81AA50&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session</msg>
+<msg time="2025-02-17T09:34:05.586732" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000001C4EC9DC0D0&gt;: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session</msg>
+<msg time="2025-02-17T09:34:07.661857" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
