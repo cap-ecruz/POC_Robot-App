@@ -17,3 +17,5 @@ Abrir aplicativo
     ...  app=${ANDROID_APP}  
     ...  appPackage=br.com.telesena.app  
     ...  autoGrantPermissions=true
+Fechar aplicativo    
+    Close Application

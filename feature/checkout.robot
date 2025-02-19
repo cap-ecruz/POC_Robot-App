@@ -6,4 +6,11 @@ Resource  ../step-definition/checkout.resource
 Checkout do usuario
   Abrir aplicativo
   Fechar modal
-  Clicar em comprar
+  Clicar em comprar menu
+  Selecionar compra
+  Inserir CPF
+  Clicar em continuar
+  Selecionar opção PIX
+  Clicar em pagar com PIX
+  Aguardar confirmação de pagamento
+  Fechar aplicativo
